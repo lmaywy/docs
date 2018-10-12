@@ -1,3 +1,4 @@
+<script>
 appendCounter()
 var myVar = setInterval(function(){displayCounts()}, 500);
 function displayCounts() {
@@ -24,3 +25,4 @@ function appendCounter(){
     iDiv.innerText=1
     document.getElementsByClassName('log-header__section selected')[0].appendChild(iDiv);
 }
+</script>
